@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f5f9; 
+    padding: 50px 20px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+header {
+    text-align: center; 
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    text-align: center; 
+    display: block;     
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.resume-container {
+    max-width: 1050px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 350px 1fr; 
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+
+.left-column {
+    background-color: #1a6096; 
+    color: #f0f9ff; 
+    padding: 40px 30px;
+}
+
+
+.profile-picture-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: -10px; 
+}
+
+.profile-picture {
+    width: 200px; 
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 50%; 
+    border: 8px solid rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.left-column h2 {
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #82ccdd;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #82ccdd; 
+}
+
+.left-column h3 {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #021a1f;
+}
+
+.left-column ul {
+    padding-left: 5px;
+    list-style: none; 
+}
+
+.left-column li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    padding-left: 2px;
+    opacity: 0.95;
+    font-size: 16px;
+}
+
+/*Righ Side */
+.right-column {
+    padding: 50px 60px;
+    background: white;
+}
+
+header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #333; 
+    margin-bottom: 3px;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #1a6096; 
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase; 
+    letter-spacing: 1px;       
+}
+
+.contact-info {
+    font-size: 13.5px;
+    color: #666;
+    margin-bottom: 35px;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 15px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.right-column h2 {
+    font-size: 19px;
+    color: #333;
+    border-bottom: 2px solid #b3e5fc; 
+    margin-bottom: 20px;
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.project-item h3, 
+.education-item h3 {
+    font-size: 17px;
+    color: #1a6096; 
+    margin-bottom: 5px;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 14.5px;
+    color: #444;
+    margin-bottom: 10px;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+
+.project-item,
+.education-item {
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 900px) {
+    .resume-container {
+        grid-template-columns: 1fr; 
+    }
+
+    .left-column {
+        padding: 40px;
+        text-align: center;
+    }
+
+    .left-column h2 {
+        border-bottom: 1px solid rgba(255,255,255,0.3);
+        display: inline-block; 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .profile-picture {
+        width: 150px; 
+        height: 150px;
+    }
+
+    .right-column {
+        padding: 40px;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+}
