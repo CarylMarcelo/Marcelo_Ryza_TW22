@@ -19,9 +19,9 @@
     $summary = "Detail-oriented IT student specializing in Web and Mobile Application development. Passionate about learning and creating seamless user experiences and contributing to innovative projects. Eager to apply my skills in a dynamic work environment and grow as a professional in the tech industry.";
 
     // Technical Skills
-    $languages = ["Python (Tkinter)", "Java", "JavaScript", "C++", "CSS"];
+    $languages = ["Python", "Java", "JavaScript", "C++", "CSS"];
     $designTools = ["Figma", "Canva", "Adobe Photoshop"];
-    $dataAnalysis = ["Python (Pandas)", "Data Cleaning", "Visualization"];
+    $dataAnalysis = ["Pandas", "Data Cleaning", "Visualization"];
 
     // Education
     $school1 = "Rizal High School";
@@ -73,7 +73,7 @@
                 <?php endforeach; ?>
             </ul>
 
-            <h3>Design & Tools</h3>
+            <h3>Design Tools</h3>
             <ul>
                 <?php foreach($designTools as $tool): ?>
                     <li><?php echo $tool; ?></li>
