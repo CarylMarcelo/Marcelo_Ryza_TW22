@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="header">
-        <h1>My PHP Activities</h1>
+        <h1>These are my PHP Activities</h1>
         <p>PHP is fun</p>
     </div>
 </body>
