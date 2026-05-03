@@ -10,7 +10,7 @@
     <?php
     // Personal Information
     $name = "Ryza Caryl F. Marcelo";
-    $title = "BSIT - Web and Mobile Application Student";
+    $title = "Web Developer";
     $email = "rfmarcelo@fit.edu.ph";
     $phone = "+63 928 154 2196";
     $location = "Pasig City, Philippines";
