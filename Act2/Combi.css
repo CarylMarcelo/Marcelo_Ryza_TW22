@@ -1,0 +1,28 @@
+.numbers-container {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace; 
+    line-height: 1.8;
+    max-width: 950px;
+    margin: 20px auto;
+    word-break: break-all; 
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.h1 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.number-item {
+    font-weight: bold;
+    color: #ff0095;
+}
+
+.comma {
+    color: #000000;
+    margin-right: 5px;
+}

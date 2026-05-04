@@ -1,4 +1,3 @@
-/* style.css */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #fdfdfd;
@@ -29,7 +28,6 @@ table {
     margin-bottom: 30px;
 }
 
-/*Header cells style */
 th {
     background-color: #fd81e6;
     color: #000;
