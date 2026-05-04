@@ -1,0 +1,60 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdfdfd;
+    padding: 40px;
+    color: #333;
+}
+
+.conversion-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 10px;
+}
+
+h1 {
+    color: #091624;
+    text-align: left;
+    font-weight: normal;
+    font-size: 24px;
+    border-bottom: 1px solid #0b1520;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+/*Header cells style */
+th {
+    background-color: #fd81e6;
+    color: #000;
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+td {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.label-cell {
+    width: 25%;
+}
+
+.equals-cell {
+    width: 5%;
+    text-align: center;
+}
+
+.value-cell {
+    width: 25%;
+}
