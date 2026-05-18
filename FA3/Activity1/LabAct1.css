@@ -1,37 +1,66 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     display: flex;
     justify-content: center;
-    padding: 20px;
-    background-color: #b1fa94;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background-color: #e2f5d3; 
+    margin: 0;
 }
 
 table {
     border-collapse: separate;
-    border-spacing: 3px;
-    border: 2px solid #666;
-    background-color: #fff;
+    border-spacing: 0;
+    width: 100%;
+    max-width: 900px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(138, 171, 119, 0.15);
+    border: 1px solid #e0ebd7; 
 }
 
 th, td {
-    border: 1px solid #666;
-    padding: 15px;
+    padding: 16px;
     text-align: center;
     vertical-align: middle;
+    border-bottom: 1px solid #f0f5eb; 
+    color: #4a5543;
 }
 
 th {
-    background-color: #ffffff;
-    font-weight: normal;
+    background-color: #f4faf0; 
+    font-weight: 600;
+    color: #5c7a48;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #e2f5d3;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+
+tr:nth-child(even) td {
+    background-color: #fafdf8;
 }
 
 
 .profile-img {
-    width: 100px;
-    height: auto;
+    width: 90px;
+    height: 115px;
+    object-fit: cover;
     display: block;
     margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+    border: 1px solid #eef3eb;
 }
 
-
-
+table tr:hover td {
+    background-color: #f1f9ec;
+    transition: background-color 0.2s ease;
+}
