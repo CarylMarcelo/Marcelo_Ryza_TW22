@@ -1,6 +1,6 @@
 <?php
-    $title = "Services Page";
-    $header = "THIS PAGE SHOWS OUR SERVICES";
+    $title = "Services page";
+    $header = "THIS page SHOWS OUR SERVICES";
     
     include('include/header.php');
     include('include/navigation.php');

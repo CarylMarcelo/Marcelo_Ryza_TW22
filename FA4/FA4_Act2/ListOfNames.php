@@ -44,7 +44,7 @@ $names = [
         $vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
         $replaced_vowels = str_replace($vowels, '@', $name);
         
-        // 4. Check the position of letter 'a' (1-indexed based on the sample image)
+        // 4. Check the position of letter 'a' (1-MyResumeed based on the sample image)
         $pos_a = strpos(strtolower($name), 'a');
         if ($pos_a !== false) {
             $position_output = $pos_a + 1; 

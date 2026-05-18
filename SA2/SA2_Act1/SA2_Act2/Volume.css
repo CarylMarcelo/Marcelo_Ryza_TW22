@@ -1,0 +1,30 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #f7f7f7;
+    margin: 30px;
+    font-size: 30px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 2px solid #333;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: normal;
+    background-color:#4BB8FA;
+}

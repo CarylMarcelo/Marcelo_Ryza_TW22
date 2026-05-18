@@ -1,0 +1,57 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #f7f7f7;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+table {
+    width: auto;
+    border-collapse: collapse;
+    background-color: white;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 2px solid #333;
+    padding: 5px 10px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+th {
+    font-size: 18px;
+    background-color: #e0f7fa;
+    color: darkblue;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #b2ebf2;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.sign-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.description {
+    font-weight: bold;
+}
+
+.facts {
+    text-align: justify;
+    line-height: 1.4;
+    font-size: larger;
+}

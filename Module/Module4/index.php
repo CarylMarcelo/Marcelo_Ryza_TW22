@@ -1,6 +1,6 @@
 <?php
-    $title = "AboutMyFriends Page";
-    $header = "THIS IS A SAMPLE PAGE";
+    $title = "AboutMyFriends page";
+    $header = "THIS IS A SAMPLE page";
 
     // unset($header);
     include('include/header.php');

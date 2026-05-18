@@ -67,7 +67,7 @@
                     else if ($page == 'friend4') { include("friend4.php"); } 
                     else if ($page == 'friend5') { include("friend5.php"); } 
                     else {
-                        echo "<h2>Page Not Found</h2>";
+                        echo "<h2>page Not Found</h2>";
                     }
                 ?>
             </div>
