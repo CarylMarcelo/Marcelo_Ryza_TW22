@@ -1,7 +1,7 @@
 
         <nav class="navigation">
             <ul>
-                <a href="index.php">
+                <a href="AboutMyFriends.php">
                     <li>Home</li>
                 </a>
                 <a href="services.php">

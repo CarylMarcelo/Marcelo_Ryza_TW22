@@ -1,5 +1,5 @@
 <?php
-    $title = "Index Page";
+    $title = "AboutMyFriends Page";
     $header = "THIS IS A SAMPLE PAGE";
 
     // unset($header);

@@ -1,0 +1,16 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #555;
+    padding: 12px;
+}
+
+.main-header {
+    font-size: 1.2em;
+    padding: 20px;
+}

@@ -35,7 +35,7 @@
     </div>
 
     <div>
-        <a href="indexM1.php">Go back to home page</a>
+        <a href="AboutMyFriendsM1.php">Go back to home page</a>
     </div>
 </body>
 </html>
