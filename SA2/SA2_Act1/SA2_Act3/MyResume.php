@@ -47,7 +47,7 @@
     </main>
 
     <footer class="resume-footer">
-        <p>&copy; 2026 Ryza Marcelo. All rights reserved.</p>
+        <p>&copy; 2026 Ryza Marcelo. Please Hire Me.</p>
     </footer>
 </div>
 
