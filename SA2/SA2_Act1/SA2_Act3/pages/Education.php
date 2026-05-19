@@ -9,7 +9,7 @@ $year2 = "2024 - Present";
 ?>
 
 <section>
-    <h2>Educational Attainment</h2>
+    <h2>Educational Background</h2>
     <div class="education-item">
         <h3><?php echo $school2; ?></h3>
         <p><?php echo $degree2; ?> | <?php echo $year2; ?></p>

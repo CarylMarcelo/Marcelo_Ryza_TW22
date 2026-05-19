@@ -26,16 +26,20 @@
         $page = isset($_GET['page']) ? strtolower($_GET['page']) : 'personal';
 
         $file_mapping = [
-            'personal'       => 'Personal_Info.php',
-            'objective'      => 'Career_Objective.php',
-            'education'      => 'Education.php',
-            'skills'         => 'Skills.php',
-            'certifications' => 'Certifications.php',
-            'projects'       => 'Projects.php'
+            'personal'       => 'pages/Personal_Info.php',
+            'objective'      => 'pages/Career_Objective.php',
+            'education'      => 'pages/Education.php',
+            'skills'         => 'pages/Skills.php',
+            'certifications' => 'pages/Certifications.php',
+            'projects'       => 'pages/Projects.php'
         ];
 
-        if (array_key_exists($page, $file_mapping)) {
-            require("pages/" . $file_mapping[$page]);
+        if(array_key_exists($page, $file_mapping)) {
+            if($page === 'personal') {
+                require $file_mapping[$page];
+            } else {
+                include $file_mapping[$page];
+            }
         } else {
             echo "<h2>404 - Section Not Found</h2><p>The requested section does not exist.</p>";
         }
