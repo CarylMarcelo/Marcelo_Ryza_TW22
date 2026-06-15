@@ -1,0 +1,53 @@
+body {
+    background-color: #fff0f5; 
+    color: #4a1525; 
+}
+
+.form-label, 
+strong {
+    color: #c71585; 
+}
+
+.text-pink-header {
+    color: #ff1493;
+}
+
+.form-control:focus {
+    border-color: #ff69b4;
+    box-shadow: 0 0 0 0.25rem rgba(255, 105, 180, 0.25);
+}
+
+.btn-pink {
+    background-color: #ff69b4;
+    border-color: #ff69b4;
+    color: white;
+}
+
+.btn-pink:hover, 
+.btn-pink:focus, 
+.btn-pink:active {
+    background-color: #ff1493;
+    border-color: #ff1493;
+    color: white;
+    box-shadow: 0 0 0 0.25rem rgba(255, 20, 147, 0.25);
+}
+
+.btn-outline-pink {
+    color: #ff69b4;
+    border-color: #ff69b4;
+    background-color: transparent;
+}
+
+.btn-outline-pink:hover, 
+.btn-outline-pink:focus, 
+.btn-outline-pink:active {
+    background-color: #ff69b4;
+    border-color: #ff69b4;
+    color: white;
+    box-shadow: 0 0 0 0.25rem rgba(255, 105, 180, 0.25);
+}
+
+.card {
+    border-color: #ffb6c1;
+    background-color: #ffffff;
+}
