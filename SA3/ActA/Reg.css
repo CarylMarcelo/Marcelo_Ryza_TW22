@@ -1,0 +1,119 @@
+:root {
+    --primary-green: #2e7d32;
+    --hover-green: #1b5e20;
+    --bg-light: #f4f9f4;
+    --text-dark: #333333;
+    --border-color: #c8e6c9;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.registration-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(46, 125, 50, 0.08);
+    border-top: 6px solid var(--primary-green);
+}
+
+.registration-container h2 {
+    margin-top: 0;
+    color: var(--primary-green);
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 0.9em;
+    color: #555555;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"] {   
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--primary-green);
+    box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.15);
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: var(--primary-green);
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: var(--hover-green);
+}
+
+.alert-error {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #ffcdd2;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.result-box {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e8f5e9;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.result-box p {
+    margin: 8px 0;
+    line-height: 1.5;
+    font-size: 0.95em;
+}
+
+.result-box span.label {
+    font-weight: 600;
+    color: var(--primary-green);
+    display: inline-block;
+    width: 130px;
+}
