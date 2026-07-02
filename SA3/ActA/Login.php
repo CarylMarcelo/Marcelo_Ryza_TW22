@@ -7,7 +7,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
 }
 
 $error = "";
-// Static variables for Activity A
+// Static variables
 $static_user = "user123";
 $static_pass = "password123";
 

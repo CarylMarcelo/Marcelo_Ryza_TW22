@@ -1,7 +1,7 @@
 <?php
 session_start();
 session_unset();
-session_destroy(); // [cite: 36, 48]
+session_destroy(); 
 header("Location: Login.php");
 exit();
 ?>
