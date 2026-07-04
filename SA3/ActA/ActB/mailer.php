@@ -12,8 +12,8 @@ function send_confirmation_email($to_email, $to_name, $subject, $body) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'rycadump@gmail.com'; 
-        $mail->Password   = 'exix ubft cnzd wosj';  
+        $mail->Username   = 'myemail@gmail.com'; 
+        $mail->Password   = '********************';  
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
